@@ -4,35 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Иван Бояринов - Портфолио</title>
+    <title>Иван Бояринов - Портфолио</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/media.css">
-
     <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
-
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <div class="header-row">
-
                 <img src="./img/photo.jpg" srcset="./img/photo@2x.jpg 2x" alt="Photo" class="header-img">
-
                 <div class="header-desc">
-
                     <h1 class="header-title">Иван Бояринов</h1>
                     <p class="header-text">Начинающий IT-специалист</p><br>
-
                     <div class="header-btns">
+                        <a href="#information" class="btn">Обо мне</a>
+                        <a href="#experience" class="btn">Опыт</a>
                         <a href="#portfolio" class="btn">Портфолио</a>
-                        <a href="#contacts" class="btn-outline">Контакты</a>
+                        <a href="#contacts" class="btn">Контакты</a>
                     </div>
-
                 </div>
-
             </div>
         </div>
         <video class="header-video" autoplay muted loop>
@@ -41,49 +35,101 @@
     </header>
 
     <main>
+        <section class="info" id="info">
+            <h2 class="information">Обо мне</h2>
+            <div class="info-title">
+                <p>Привет!<br>
+                    
+                <br>Меня зовут Иван, и я с энтузиазмом изучаю frontend-разработку и тестирование программного обеспечения.<br>
+                <br>Хотя я не окончил формальных курсов, мой путь самообразования привёл меня к созданию проекта "Яндекс Эко", который посвящён сбору и продвижению инноваций, направленных на улучшение экологической ситуации <br>на планете.<br>
+
+                <br>Я обладаю базовыми навыками в HTML/CSS, JavaScript и работаю с системами контроля версий, <br>такими как Git. В настоящее время я сосредотачиваюсь на углублении знаний в области frontend-разработки <br>и тестирования, стремясь стать ценным специалистом в IT-индустрии.</p>
+            </div>
+
+        <section class="experience" id="experience">
+            <h2 class="road">Путь развития</h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-date">
+                        <h2 align="right">15.11.2021 — 04.06.2022</h2>
+                        <h3 align="right">Яндекс</h3>
+                        <p align="right">Специалист 1 категории<br>Служба поддержки Логистических тарифов (Поддержка бизнеса)</p><br>
+                    </div>
+                    <div class="timeline-content">
+                        <p>Работая на этой позиции, я приобрел ценные навыки и опыт, которые помогли <br> мне развиваться как профессионалу.<br> 
+                        
+                        <br>Я научился эффективно общаться с клиентами, решать конфликтные ситуации <br> и управлять эмоциями. Многозадачность и расстановка приоритетов стали неотъемлемой частью моей работы, а аналитические навыки позволили выявлять проблемы и предлагать улучшения.</p><br>
+
+                        <br><p>Я освоил использование внутренних инструментов для решения технических проблем и обработки запросов. Работая в команде, я взаимодействовал с коллегами <br>для решения сложных задач и повышения качества обслуживания.</p><br>
+
+                        <br><p>Понимание продуктов и услуг Яндекса помогало мне эффективно консультировать клиентов. Этот опыт укрепил мою клиентоориентированность и способность достигать поставленных целей, обеспечивая высокий уровень сервиса.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-date">
+                        <h2 align="left">03.10.2023 — 01.06.2024</h2>
+                        <h3>Яндекс</h3>
+                        <p>Менеджер Корпоративных клиентов Доставки</p><br>
+                    </div>
+                    <div class="timeline-content">
+                        <p>На новой должности я приобрел еще больше опыта в управлении многозадачностью <br> и расстановке приоритетов, что помогло мне эффективно координировать доставки <br> и решать возникающие проблемы. Мои аналитические навыки улучшились благодаря анализу данных и выявлению узких мест, что позволило предлагать значимые улучшения.</p><br> 
+
+                        <br> <p>Использование внутренних инструментов для решения технических проблем <br> и обработки запросов стало важной частью моей работы. Я научился лучше взаимодействовать с коллегами и клиентами, что повысило качество обслуживания <br> и удовлетворенность клиентов.</p><br> 
+
+                        <br><p>На этой должности я глубже изучил продукты и услуги, что позволило мне более эффективно консультировать клиентов и обеспечивать высокий уровень сервиса. Планирование и управление временем стали ключевыми навыками, помогая достигать целей и обеспечивать бесперебойную работу доставки.</p><br> 
+
+                        <br><p>Этот опыт укрепил мою клиентоориентированность и способность достигать целей, став основой для моего дальнейшего профессионального развития.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-date">
+                        <h2 align="right">01.06.2024 - по настоящее время</h2>
+                        <h3 align="right">Яндекс</h3>
+                        <p align="right">Багхантер Доставки NDD</p><br>
+                    </div>
+                    <div class="timeline-content">
+                        <p>Решив начать осваивать разработку, встал на позицию Багхантера.</p><br> 
+
+                        <br> <p>Этот шаг стал для меня новым вызовом и возможностью расширить свои профессиональные горизонты.</p><br> 
+
+                        <br> <p>Ранее приобретенные навыки управления клиентским обслуживанием <br> и координации процессов Доставки помогли мне успешно адаптироваться <br> и внести ценный вклад в развитие отдела.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
         <section class="portfolio" id="portfolio">
             <div class="container">
                 <h2 class="portfolio-title">Портфолио</h2>
-
                 <div class="projects">
-
                     <article class="project">
                         <a href="./yandex-eco.html">
-                            <img class="project-img" src="./img/portfolio/project-01.jpg"
-                                srcset="./img/portfolio/project-01@2x.jpg 2x" alt="Яндекс Эко">
+                            <img class="project-img" src="./img/portfolio/project-01.jpg" srcset="./img/portfolio/project-01@2x.jpg 2x" alt="Яндекс Эко">
                         </a>
                         <h3 class="project-title"><a href="./yandex-eco.html">Яндекс Эко</a></h3>
                     </article>
-
                     <article class="project">
                         <a href="./portfolio.html">
-                            <img class="project-img" src="./img/portfolio/project-02.jpg"
-                                srcset="./img/portfolio/project-02@2x.jpg 2x" alt="Сайт портфолио">
+                            <img class="project-img" src="./img/portfolio/project-02.jpg" srcset="./img/portfolio/project-02@2x.jpg 2x" alt="Сайт портфолио">
                         </a>
                         <h3 class="project-title"><a href="./portfolio.html">Сайт портфолио</a></h3>
                     </article>
-
                 </div>
-
             </div>
         </section>
 
         <section class="contacts" id="contacts">
             <div class="container">
                 <h2 class="contacts-title">Контакты</h2>
-
                 <div class="messangers">
-
                     <a href="https://t.me/gothic930633" class="messanger">
                         <img src="./img/icons/telegram.png" alt="Telegram">
                         Написать в Telegram
                     </a>
-
                     <a href="mailto:i.boyarinov@internet.ru" target="_blank" class="messanger">
                         <img src="./img/icons/email.png" alt="Почта">
-                        Написать на почту 
+                        Написать на почту
                     </a>
-
                 </div>
             </div>
         </section>
